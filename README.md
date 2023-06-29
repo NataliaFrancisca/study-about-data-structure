@@ -1,4 +1,4 @@
-# 🚃👩🏽‍💻 Anotações, Códigos e Imagens dos meus estudos sobre estruturas de dados
+# 🚃👩🏽‍💻 Anotações, Códigos e Imagens dos meus estudos sobre Estrutura de dados
 São imagens, anotações e códigos sobre estrutura de dados; É tudo muito bagunçado, mas de uma forma que eu entendo os conceitos.
 
 ## Cursos & Vídeos
