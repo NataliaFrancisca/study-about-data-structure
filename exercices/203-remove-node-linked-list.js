@@ -1,27 +1,10 @@
 let head = null;
-const val = 6;
 
 class ListNode{
-    constructor(value = 0, counter = 0, next = null){
+    constructor(value = 0, next = null){
         this.value = value;
-        this.counter = counter;
         this.next = next;
     }
-}
-
-function initialize(value, counter){
-    let node = head;
-
-    if(node == null){
-        head = new ListNode(value, counter);
-        return;
-    }
-
-    while(node.next){
-        node = node.next;
-    }
-
-    node.next = new ListNode(value, counter);
 }
 
 var removeElements = function(head, val) {
@@ -31,16 +14,14 @@ var removeElements = function(head, val) {
     while(currentNode){
         let nextNode = currentNode.next;
 
-        if(currentNode.value === val && prevNode === null){
-            head = nextNode;
-            prevNode = null
-        }
-
-        if(currentNode.value === val && prevNode){
-            prevNode.next = currentNode.next;
-        }
-
-        if(currentNode.value !== val){
+        if(currentNode.value === val){
+            if(prevNode === null){
+                head = nextNode;
+                prevNode = null;
+            }else{
+                prevNode.next = currentNode.next;
+            }
+        }else{
             prevNode = currentNode;
         }
 
@@ -50,13 +31,29 @@ var removeElements = function(head, val) {
     return head;
 };
 
+// FUNCTION TO ADD THE NUMBERS AS A NODE 
+function initialize(value){
+    let node = head;
 
-// const arr = [1,2,6,3,4,5,6];
-const arr = [7,7,7,7];
+    if(node == null){
+        head = new ListNode(value);
+        return;
+    }
 
-for(let i = 0; i < arr.length; i++){
-    initialize(arr[i], i);
+    while(node.next){
+        node = node.next;
+    }
+
+    node.next = new ListNode(value);
 }
 
-const node = removeElements(head, 7);
+// NODE LIST TEST
+const arr = [1,2,6,3,4,5,6];
+// const arr = [7,7,7,7];
+
+for(let i = 0; i < arr.length; i++){
+    initialize(arr[i]);
+}
+
+const node = removeElements(head, 6);
 console.log(node)
