@@ -5,7 +5,7 @@ class Pedido:
         self.itens = itens;
         self.valor = valor;
 
-class ListaPedidos:
+class FilaPedidos:
     def __init__(self):
         self.lista = [];
         
@@ -25,7 +25,7 @@ class ListaPedidos:
     def listar_primeiro_pedido(self):
         print(self.lista[0].cliente) if len(self.lista) > 0 else print("Nenhum pedido na lista")
 
-onze_julho_2023_pedidos = ListaPedidos();
+onze_julho_2023_pedidos = FilaPedidos();
 
 pedido_1 = Pedido(1, 'Natalia', ['Batata Frita', 'Hamburguer', 'Coca-Cola'], 45);
 pedido_2 = Pedido(2, 'Luiz', ['Batata Frita', 'Coca-Cola'], 25);
