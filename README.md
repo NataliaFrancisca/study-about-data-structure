@@ -7,6 +7,13 @@ São imagens, anotações e códigos sobre estrutura de dados; É tudo muito bag
 - [Leetcode 2. - Add Two Numbers - Javascript](https://www.youtube.com/watch?v=zSwAnsQp09k)
 - [Reverse Linked List - Iterative AND Recursive - Leetcode 206 - Python](https://www.youtube.com/watch?v=G0_I-ZF0S38&t=373s)
 
+## Tópicos
+
+- [X] Linked List
+- [X] Double Linked List
+- [X] Stack
+- [ ] Queue
+
 ## LeetCode Exercícios
 
 - [X] 2-add-two-numbers 
@@ -18,8 +25,10 @@ eu não conseguir resolver por conta própria, então tive que assistir alguns v
 
 não consegui resolver sozinha, então tive que assisitir o vídeo da resolução. Depois de assistir consegui entender o problema e desenhei como seria a resolução desse exercício.
 
+- [X] 682-baseball-game 
 
 ## Stack utilizada
 - JavaScript
 - TypeScript
+- Python
 
