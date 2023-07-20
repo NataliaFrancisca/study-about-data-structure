@@ -6,6 +6,7 @@ São imagens, anotações e códigos sobre estrutura de dados; É tudo muito bag
 - [Linked Lists | Data Structures in JavaScript](https://www.youtube.com/watch?v=ChWWEncl76Y)
 - [Leetcode 2. - Add Two Numbers - Javascript](https://www.youtube.com/watch?v=zSwAnsQp09k)
 - [Reverse Linked List - Iterative AND Recursive - Leetcode 206 - Python](https://www.youtube.com/watch?v=G0_I-ZF0S38&t=373s)
+- [Reverse a sublist of linked list](https://www.geeksforgeeks.org/reverse-sublist-linked-list/)
 
 ## Tópicos
 
@@ -26,6 +27,8 @@ eu não conseguir resolver por conta própria, então tive que assistir alguns v
 não consegui resolver sozinha, então tive que assisitir o vídeo da resolução. Depois de assistir consegui entender o problema e desenhei como seria a resolução desse exercício.
 
 - [X] 682-baseball-game 
+- [X] 92-reverse-linked-list-ii
+até a parte de pegar os ponteiros, left/right node eu conseguia, mas na hora de conectar o head/tail ao sublist eu travei 🤯. Com a resolução do problema conseguir entender onde eu estava errando.
 
 ## Stack utilizada
 - JavaScript
