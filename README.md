@@ -23,6 +23,7 @@ São imagens, anotações e códigos sobre estrutura de dados; É tudo muito bag
 - [X] 682-baseball-game 
 - [X] 92-reverse-linked-list-ii
 - [X] 1700-number-of-students-unable-to-eat-lunch
+- [X] 1-insert-a-node-at-a-specific-position-in-a-linked-list
 
 - **2:** eu não conseguir resolver por conta própria, então tive que assistir alguns vídeos para resolver e entender o exercício. No final eu fiz um versão com alguns ajustes que eu entendi melhor.
 - **206:** não consegui resolver sozinha, então tive que assisitir o vídeo da resolução. Depois de assistir consegui entender o problema e desenhei como seria a resolução desse exercício.
