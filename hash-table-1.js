@@ -14,10 +14,7 @@ function sort(list){
         return 0;
     })
 
-    return { 
-        object: Object.fromEntries(arrayPairs),
-        array: arrayPairs
-    }
+    return arrayPairs;
 }
 
 class HashTable{
@@ -30,42 +27,69 @@ class HashTable{
     }
     
     update(player, points ){
+        if(!this.table[player]){
+            console.log("There are no players registered");
+        }
+
         this.table[player] += points;
     }
 
     delete(player){
+        if(!this.table[player]){
+            console.log("There are no players registered");
+            return;
+        }
+
         delete this.table[player];
     }
 
     list(){
-        const sort = sort(this.table);
-        const obj = sort.object;
-        for(let player in obj){
+        const arr_sort = sort(this.table);
+
+        if(arr_sort.length == 0){
+            console.log("There are no players registered");
+            return;
+        }
+
+        const obj_final = Object.fromEntries(arr_sort);
+        for(let player in obj_final){
             console.log(`| ${player.toUpperCase()}: ${this.table[player]} `)
         }
     }
 
     winner(){
-        const sortOjb = sort(this.table);
-        const arr = sortOjb.array[0];
-        console.log(`🎉 WINNER: ${arr[0].toUpperCase()} - POINTS: ${arr[1]}`)
+        const arr_sort = sort(this.table);
+
+        if(arr_sort.length == 0){
+            console.log("There are no players registered");
+            return;
+        }
+
+        const winner = arr_sort[0];
+        console.log(`🎉 WINNER: ${winner[0].toUpperCase()} - POINTS: ${winner[1]}`)
     }
 
 }
 
 const game = new HashTable();
-game.append('natalia');
-game.append('luiz');
-game.append('gustavo');
-game.append('leia');
-game.append('olivia rodrigo');
-game.append('chris');
-
-game.update('natalia', 20);
-game.update('luiz', 10);
-game.update('chris', 100);
-
-game.delete('luiz');
-// console.log(game.table);
-// game.list();
+game.list();
 game.winner();
+// game.append('natalia');
+// game.append('luiz');
+// game.append('gustavo');
+// game.append('leia');
+// game.append('olivia rodrigo');
+// game.append('chris');
+
+// game.update('natalia', 20);
+// game.update('luiz', 10);
+// game.update('chris', 100);
+
+// game.delete('luiz');
+// // console.log(game.table);
+// // game.list();
+// game.winner();
+// game.update('natalia', 200);
+// game.winner();
+
+// game.update('joana');
