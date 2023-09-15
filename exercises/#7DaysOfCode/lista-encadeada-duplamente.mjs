@@ -54,7 +54,6 @@ class Playlist{
             return;
         }
 
-
         while(node){
             if(node.id == id){
                 const prev = node.prev;
@@ -69,7 +68,6 @@ class Playlist{
         
         console.log("There is no song with this ID");
     }
-
 
     list(){
         let node = this.head;
@@ -103,7 +101,6 @@ class Playlist{
             }
         }
     }
-
 }
 
 const playlist_nt = new Playlist();
@@ -111,9 +108,7 @@ playlist_nt.append(1, 'Cartas para Amy', 'Black Alien');
 playlist_nt.append(2, 'Fica até umas horas', 'Black Alien');
 playlist_nt.append(3, 'Dejavu', 'Olivia Rodrigo');
 playlist_nt.append(7, 'Another Love', 'Marco');
-
 playlist_nt.remove(2);
 playlist_nt.remove(3);
-// playlist_nt.list();
-
+playlist_nt.list();
 playlist_nt.access_song(1);
