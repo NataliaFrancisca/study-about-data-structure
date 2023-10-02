@@ -1,20 +1,15 @@
 def smallerNumbersThanCurrent(nums):
-    smaller = [];
-    index = 0;
     counter = 0;
-    # for x in nums:
-    #     for i in nums[x, len(nums)]:
-    #         print(x, i)
-    for i in range(len(nums)):
-        for x in range(len(nums)):
-            index = i;
-            print(nums[i], nums[x])
-            if(nums[x] < nums[i]):
-                counter+=1;
-            if(i != index):
-                index = i;
-                smaller.append(counter);
-                counter = 0;
+    smaller_arr = [];
+
+    for x in nums:
+        for b in nums:
+            if(b < x):
+                counter = counter + 1;
+        smaller_arr.append(counter);
+        counter = 0;
+    print(smaller_arr);
     
-    print(smaller)
+    
 smallerNumbersThanCurrent([8,1,2,2,3]);
+smallerNumbersThanCurrent([1,2,4,6,3]);
