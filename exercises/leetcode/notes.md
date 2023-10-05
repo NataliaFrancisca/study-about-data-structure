@@ -10,9 +10,12 @@
 - [X] 315-count-of-smaller-numbers-after-self
 - [X] 26-remove-element
 - [X] 27-remove-duplicates-from-sorted-array
+- [X] 1512-number-of-good-pairs
+- [X] 876-middle-of-the-linked-list 
 
 - **2:** eu não conseguir resolver por conta própria, então tive que assistir alguns vídeos para resolver e entender o exercício. No final eu fiz um versão com alguns ajustes que eu entendi melhor.
 - **206:** não consegui resolver sozinha, então tive que assisitir o vídeo da resolução. Depois de assistir consegui entender o problema e desenhei como seria a resolução desse exercício.
 - **92:** até a parte de pegar os ponteiros, left/right node eu conseguia, mas na hora de conectar o head/tail ao sublist eu travei 🤯. Com a resolução do problema conseguir entender onde eu estava errando.
 - **1700** consegui resolver, mas ficou um código muito grande e complicado (poderia ter feito mais simples 😅). Depois que eu vi alguns exemplos eu entendi que fiz mais do que deveria, era pra ser um código simples.
 - **315** Estou tendo problemas com o test quando o array tem muitos valores; ele dá Time Limit Exceeded
+- **876** Consegui resolver o exercício, mas a resposta que tinha no leetcode era muito mais prático e mais inteligente 🤯🤯
