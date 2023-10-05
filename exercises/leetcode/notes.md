@@ -8,6 +8,8 @@
 - [X] 1929-concatenation-of-array
 - [X] 1365-how-many-numbers-are-smaller-than-the-current-number
 - [X] 315-count-of-smaller-numbers-after-self
+- [X] 26-remove-element
+- [X] 27-remove-duplicates-from-sorted-array
 
 - **2:** eu não conseguir resolver por conta própria, então tive que assistir alguns vídeos para resolver e entender o exercício. No final eu fiz um versão com alguns ajustes que eu entendi melhor.
 - **206:** não consegui resolver sozinha, então tive que assisitir o vídeo da resolução. Depois de assistir consegui entender o problema e desenhei como seria a resolução desse exercício.
