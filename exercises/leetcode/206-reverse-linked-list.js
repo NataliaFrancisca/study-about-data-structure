@@ -37,8 +37,6 @@ function reverse(head){
        current.next = prev;
        prev = current;
        current = next;
-
-       console.log("NO PREV", prev)
     }
 
     return prev;
