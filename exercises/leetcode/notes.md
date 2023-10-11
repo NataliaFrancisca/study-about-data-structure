@@ -12,6 +12,7 @@
 - [X] 27-remove-duplicates-from-sorted-array
 - [X] 1512-number-of-good-pairs
 - [X] 876-middle-of-the-linked-list 
+- [X] 1290-convert-binary-number-in-a-linked-list-to-integer
 
 - **2:** eu não conseguir resolver por conta própria, então tive que assistir alguns vídeos para resolver e entender o exercício. No final eu fiz um versão com alguns ajustes que eu entendi melhor.
 - **206:** não consegui resolver sozinha, então tive que assisitir o vídeo da resolução. Depois de assistir consegui entender o problema e desenhei como seria a resolução desse exercício.
