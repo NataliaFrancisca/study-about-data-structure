@@ -16,6 +16,7 @@
 - [X] Queue
 - [ ] Hash Map
 - [ ] Tree
+- [ ] Binary Search
 
 ## Stack utilizada
 - JavaScript
