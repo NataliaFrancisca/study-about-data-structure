@@ -17,13 +17,13 @@ _Repositório de estudo sobre algoritmo e estrutura de dados._
 ### Semana 1: Introdução a Algoritmos e Estruturas de Dados
 
 **Dia 1-2: Conceitos Básicos**
-- [ ] O que são algoritmos?
+- [X] O que são algoritmos?
 - [ ] O que são estruturas de dados?
 - [ ] Complexidade de tempo e espaço (Big O notation).
 
 **Dia 3-4: Estruturas de Dados Básicas**
-- [ ] Arrays.
-- [ ] Listas Ligadas.
+- [X] Arrays.
+- [ ] Listas Encadeadas.
 - [ ] Pilhas e Filas.
 
 **Dia 5-7: Algoritmos de Busca e Ordenação**
