@@ -34,7 +34,7 @@ public class ListaTelefonica {
             String nome = listaTelefonica.get(i).nome;
 
             if(nome.equals(telefoneParaPesquisa)){
-                System.out.println("ACHAMOS NA LISTA SIMPLES :o " + nome);
+                System.out.println("Busca Simples: achei o nome: " + nome);
                 break;
             }
 
@@ -55,7 +55,7 @@ public class ListaTelefonica {
             String atual = listaTelefonica.get(meioDaLista).nome;
 
             if(atual.compareTo(telefoneParaPesquisa) == 0){
-                System.out.println("ACHAMOS NA LISTA BINARIA :o " + atual);
+                System.out.println("Busca Binária: achei o nome: " + atual);
                 break;
             }
          
